@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+$font-size-bar: 20px;
+$full-width: 70%;
+$primary-font: "Barlow", "sans-serif";
+$secondary-font: "Lora", "serif";
+
+.primary-button {
+  background-color: #00cc83;
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-family: $secondary-font;
+  font-size: 20px;
+  cursor: pointer;
+  &:hover {
+    background-color: #05a06a;
+  }
+}

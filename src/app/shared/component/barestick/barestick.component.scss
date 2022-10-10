@@ -1,0 +1,44 @@
+@import "./../../styleLib.component.scss";
+.bar-container {
+  width: 70%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: $primary-font;
+  position: fixed;
+  transform: translateX(20%);
+  background-color: #d2d6e2;
+  &-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: $font-size-bar;
+    align-items: center;
+    align-content: center;
+    a {
+      padding-left: 10px;
+      max-width: 20%;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .sections {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 40px;
+      }
+    }
+  }
+}
+
+.logo {
+  img {
+    width: 200px;
+    cursor: pointer;
+  }
+}
